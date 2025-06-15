@@ -4,3 +4,6 @@ const countText = document.getElementById("count");
 
 let countVal = parseInt(countText.innerText);
 
+incBtn.addEventListener("click",(e)=> {
+    countText.innerText = ++countVal;
+});
