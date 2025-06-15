@@ -7,3 +7,7 @@ let countVal = parseInt(countText.innerText);
 incBtn.addEventListener("click",(e)=> {
     countText.innerText = ++countVal;
 });
+
+decBtn.addEventListener("click", (e)=> {
+    countText.innerText = --countVal;
+});
