@@ -20,3 +20,7 @@ decBtn.addEventListener("click", (e)=> {
 function decrement () {
     return b-a;
 }
+
+function increment () {
+    return a+b;
+}
